@@ -1,0 +1,225 @@
+@media screen and (min-width: 500px) and (max-width: 768px)   {
+
+    /* start nav */
+        .nav-ul{
+            display: none;
+        }
+     
+    /* end nav */
+    /* start home */
+    
+    .container{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .home-photo{
+        margin-top: 30px;
+        width: 60%;
+    }
+
+    .home-photo img {
+        width: 100%;
+    }
+    .container .home-content{
+        
+        width: 100%;
+    }
+   
+    /* end home */
+    /* start chefs */
+    .cards .card1,.cards .card2,.cards .card3{
+        width: 90%;
+    }
+
+    .heading h2{
+        width: 100%;
+        margin: 50px 0%;
+    }
+    /* end chefs */
+    /* start gallery */
+    
+    /* end gallery */
+    /* start contact */
+    .contact-container .frame{
+        width: 90%;
+    }
+    .contact-content{
+        
+        width: 100%;
+    }
+    .contact-content .content{
+        width: 90%;
+    }
+    .contact-container .contact-inner{
+        width: 90%;
+    }
+    /* end contact */
+    /* start footer */
+    .footer .background .footer-container{
+        flex-wrap: wrap;
+    }
+    
+    .part2 .inputs{
+        display: flex;
+    }
+    
+    .part2 button{
+        padding: 10px;
+        margin-left: 10px;
+    }
+    /* end footer */
+}
+@media screen and (max-width: 1024px){
+/* start nav */
+.nav-ul{
+    display: none;
+}
+
+.nav-content .night #bars{
+    visibility: visible;
+ }
+/* end nav */
+/* start home */
+.container{
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.home-content{
+    width: 80%;
+    align-items: center;
+}
+.home-content p{
+    margin-left: 50px;
+}
+.home-photo{
+    margin-top: 30px;
+    
+}
+.btn{
+    margin: 0 10px;
+}
+/* end home */
+/* start chefs */
+.cards{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;    
+}
+.card1,.card2{
+    width: 45%;
+    margin: 0 auto 40px;
+}
+.inner-image{
+    bottom: 106%;
+}
+.card3{
+    width: 45%;
+    margin-left: 25px;
+}
+
+/* end chefs */
+/* start gallery */
+
+/* end gallery */
+/* start contact */
+.frame{
+    width: 90%
+}
+.contact-content .content{
+    width: 45%;
+    margin: 15px;
+    
+}
+.contact-content{
+    justify-content: center;
+    width: 90%;
+}
+.contact-content .heads{
+    line-height: 1;
+}
+.contact-inner{
+    width: 95%;
+}
+.contact-inner input#name,.contact-inner input#email{
+    width: 100%;
+}
+
+/* end contact */
+/* start footer */
+.footer .footer-container{
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+
+.part1{
+    width: 50%;
+    order: 1;
+
+}
+.part3{
+    width: 50%;
+    order: 2;
+
+}
+.part2{
+    width: 100%;
+    order: 3;
+}
+}
+/* end footer */
+@media screen and (max-width: 1200px){
+/* start nav */
+.nav-content .nav-ul {
+    display: none;
+} 
+/* end nav */
+/* start home */
+.home-content{
+    width: 50%;
+}
+.home-content h2{
+    margin-bottom: 10px;
+}
+/* end home */
+/* start contact */
+.contact-content{
+    width: 100%;
+}
+.content{
+    width: 45%;
+    margin: 10px 0;
+}
+.contact-inner{
+    width: 85%;
+}
+.contact-inner input{
+    width: 45%;
+}
+/* end contact */
+/* start footer */
+.footer .footer-container{
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+
+.part1{
+    width: 50%;
+    order: 1;
+
+}
+.part3{
+    width: 50%;
+    order: 2;
+
+}
+.part2{
+    width: 100%;
+    order: 3;
+}
+/* end footer */
+
+}
