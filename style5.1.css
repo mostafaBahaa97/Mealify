@@ -4,6 +4,8 @@
         .nav-ul{
             display: none;
         }
+        
+       
      
     /* end nav */
     /* start home */
@@ -72,7 +74,10 @@
 @media screen and (max-width: 1024px){
 /* start nav */
 .nav-ul{
-    display: none;
+    display: flex;
+}
+.nav-ul ul li{
+    padding-right: 10px;
 }
 
 .nav-content .night #bars{
@@ -172,8 +177,11 @@
 @media screen and (max-width: 1200px){
 /* start nav */
 .nav-content .nav-ul {
-    display: none;
+    display: flex;
 } 
+.nav-ul ul li {
+    padding-right: 15px;
+}
 /* end nav */
 /* start home */
 .home-content{
